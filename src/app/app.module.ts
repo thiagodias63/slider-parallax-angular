@@ -3,9 +3,12 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
 
+import { ImageTrackDirective } from './image-track.directive';
+
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    ImageTrackDirective
   ],
   imports: [
     BrowserModule
